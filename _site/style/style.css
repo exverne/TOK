@@ -13,7 +13,7 @@ h1, h2, h3, h4, h5, h6{
 }
 
 a{
-  text-decoration: overline;
+  text-decoration: none;
   color: inherit;
 }
 
@@ -65,11 +65,15 @@ header a{
   color: #fff;
   padding: 0 10px;
 }
+header nav a{
+  border-right: 1px solid #fff;
+}
 header a.emergency{
   font-size: 30px;
   color: white;
   background-color: red;
   text-decoration: none;
+  border: none;
 }
 header form{
   text-align: right;
@@ -81,6 +85,9 @@ header form{
 /*this is the heading in the text box*/
 #about-us h2{
   text-align: center;
+}
+#about-us{
+  padding: none;
 }
 
 /*this is the information section*/
@@ -109,6 +116,9 @@ header form{
   text-decoration: none;
   line-height: 3.0;
 }
+#accordion a:visited{
+  color: #b760e6;
+}
 #accordion h3{
   background-color: #b760e6;
   color: #fff;
@@ -124,3 +134,27 @@ header form{
 
 
 /*this is the footer section*/
+
+/* MOBILE MENU*/
+
+#mobile-menu{
+  background-color: blue;/*makes the background-color blue*/
+  position: fixed;/*makes sure it wont move even if you scroll*/
+  top: 0;/*makes sure the mobile menu sticks to the top of the screen*/
+  left: 0;/*makes sure it sticks to the left of the screen*/
+  width: 100%;/*makes it wide*/
+  height: 100%;/*makes it tall*/
+  display: none;/*hides mobile menu initially */
+  z-index: 9999; /*makes sure the #mobile-menu is in the front of other elements*/
+  text-align: center;
+  }
+#mobile-menu.mobile-menu-visible{
+  display: flex
+  ;
+}
+#mobile-menu a{
+  text-decoration: none;
+}
+.toggle-mobile-menu{
+  border:none;
+}
