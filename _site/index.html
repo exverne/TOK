@@ -8,6 +8,8 @@
   <!-- Include Gridlex to use the columns -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/gridlex/2.4.1/gridlex.min.css">
 
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+
   <!-- Include Google Fonts for our design -->
   <link href="https://fonts.googleapis.com/css?family=Lora|Raleway" rel="stylesheet">
 
@@ -36,7 +38,7 @@
         <nav class="col-12">
           <a href="/index.html">Home</a>
           <a href="/index.html#about-us">About Us</a>
-          <a href="#">Our Sites</a>
+          <a href="/index.html">Our Sites</a>
           <a href="/index.html#contact-us">Contact Us</a>
           <a href="/index.html">Support Us</a>
           <a href="/index.html">Feedback</a>
@@ -82,39 +84,52 @@
     <iframe src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;src=t6onrcdqc0itemcect3ttjr45g%40group.calendar.google.com&amp;color=%2344d9e6&amp;ctz=Asia%2FMakassar" style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
   <div class="upcoming-events">
     <h3>Upcoming events</h3>
-    <p>ICU Study Day- Thursday September 28th, 8am-4pm in WHCRE.</p>
-    <p>ICU Christmas Party- Saturday December 9th, 7pm-12am at Lux Foundry, Brunswick East. Tickets on sale mid October. See posters for more details</p>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <p><h5>ICU Study Day:</h5> Thursday September 28th, 8am-4pm in WHCRE.</p>
+
+    <p><h5>ICU Christmas Party:</h5> Saturday December 9th, 7pm-12am at Lux Foundry, Brunswick East. Tickets on sale mid October. See posters for more details</p>
+
+    <p><h5>Lorum Ipsum:</h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+    <p><h5>Lorum Ipsum:</h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
   </div>
   </div>
   <div class="col-5">
+
     <div id="accordion">
 
-      <h3>Creating Temporary ICCA Logins</h3>
-      <div>
-        <a href="#home">Creating temporary access to WH ICCA at Footscray and Sunshine ICU</a>
+      <div class="dropdown-box">
+        <h3><i class="fa fa-angle-right" aria-hidden="true"></i>Creating Temporary ICCA Logins </h3>
+        <div class="dropdown-content">
+          <a href="#home">Creating temporary access to WH ICCA at Footscray and Sunshine ICU</a>
+        </div>
       </div>
 
-      <h3>In-charge Resources</h3>
-      <div>
-        <a href="document-link#">Team Leader Guidelines</a>
-        <a href="#home">Updating Reach</a>
-        <a href="#home">Using iPm</a>
+      <div class="dropdown-box">
+        <h3><i class="fa fa-angle-right" aria-hidden="true"></i>In-charge Resources</h3>
+        <div class="dropdown-content">
+          <a href="document-link#">Team Leader Guidelines</a>
+          <a href="#home">Updating Reach</a>
+          <a href="#home">Using iPm</a>
+        </div>
       </div>
 
-      <h3>Equipment Resources</h3>
-      <div>
-        <a href="#home">Cleaning the Bronchoscope</a>
-        <a href="#home">Setting up the ventilators</a>
-        <a href="#home">iVent setup</a>
-        <a href="#home">Cleaning the airvo</a>
+      <div class="dropdown-box">
+        <h3><i class="fa fa-angle-right" aria-hidden="true"></i>Equipment Resources</h3>
+        <div class="dropdown-content">
+          <a href="#home">Cleaning the Bronchoscope</a>
+          <a href="#home">Setting up the ventilators</a>
+          <a href="#home">iVent setup</a>
+          <a href="#home">Cleaning the airvo</a>
+        </div>
       </div>
 
-      <h3>GIT Resources</h3>
-      <div>
-        <a href="#home">NGT feeding guideline</a>
-        <a href="video-document-link#">NGT Fixation</a>
-        <a href="#home">Priming a Kangaroo pump</a>
+      <div class="dropdown-box">
+        <h3><i class="fa fa-angle-right" aria-hidden="true"></i>GIT Resources</h3>
+        <div class="dropdown-content">
+          <a href="#home">NGT feeding guideline</a>
+          <a href="video-document-link#">NGT Fixation</a>
+          <a href="#home">Priming a Kangaroo pump</a>
+        </div>
       </div>
 
     </div><!-- #accordian -->
@@ -127,7 +142,7 @@
   <!--- this the contact us heading --->
      <h2>Contact Us</h2>
   </div>
-  <!--- this is the management team section --->
+  <!--- this is the management team section within contact us --->
   <div class="col-6">
     <div>
       <h3>Our Management Team</h3>
@@ -153,9 +168,9 @@
       <a href="mailto:alex.angel@wh.org.au">alex.angel@wh.org.au</a>
     </div><!--- management team --->
    </div>
-   <!---this is the contact us section --->
+   <!---this is the contact us form within the contact us section --->
   <div class="col-6">
-    <h4 class="feedback">We want to hear your feedback</h4>
+    <h4 class="feedback">We want to hear your feedback...</h4>
     <form method="POST" action="http://formspree.io/exverne@hotmail.com" class="grid-spaceAround-center-noBottom">
       <label for="name" class="col-12">Your Name</label>
       <input type="text" name="name" id="name" placeholder="Your Name" class="col-12">
@@ -171,28 +186,28 @@
 
     <footer id="footer" class="grid-top">
       <div class="col-9">
-        <a><img src="images\interpreter-symbol-2.jpg"></a>
+        <a><img src="images\interpreter-symbol-2.jpg" alt="this is the interpreter symbol" class="interpreter"></a>
       </div>
 
-      <div class="col-3 grid-top">
-        <div class="col-6">
-          <a><img src="images\WESTERNHEALTH.png" alt="this is the western health logo"></a>
+      <div class="col-3 grid-top logos">
+        <div class="col-6 whlogo">
+          <a><img src="images\WESTERNHEALTH.png" alt="this is the western health logo" class="whlogo"></a>
         </div>
         <div class="col-6">
-          <a><img src="images\whfoundation-logo.png"></a>
+          <a><img src="images\whfoundation-logo.png" alt="this is the western health foundation logo" class="foundation-logo"></a>
         </div>
       </div>
 
-      <nav class="col-12">
+      <nav class="col-12 non-image">
         <a href="#home">Patients & Visitors</a>
         <a href="#home">Services</a>
         <a href="#home">Health Professionals</a>
         <a href="#home">Education & Research</a>
         <a href="#home">Careers</a>
-        <a href="#home">Staff</a>
+        <a href="#home" class="staff">Staff</a>
       </nav>
 
-      <div class="col-12">
+      <div class="col-12 copyright">
         <p><i class="fa fa-copyright" aria-hidden="true"></i> Copyright 2017 Western Health. All rights reserved.</p>
       </div>
     </footer>
@@ -209,6 +224,8 @@
         <a href="/index.html#" class="col-12">Emergency</a>
       </nav>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
       <script src="js/main.js"type="text/javascript"></script>
     </body>
     </html>

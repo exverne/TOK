@@ -18,8 +18,8 @@ $(document).ready(function(){
 
   });
 
-
-//clicking the cross icon
-
-//close the mobile menu
+  $(".dropdown-box").click(function(){
+    $(this).toggleClass("spin")
+   $(this).children(".dropdown-content").slideToggle();
+ });
 });

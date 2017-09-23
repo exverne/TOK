@@ -8,6 +8,8 @@
   <!-- Include Gridlex to use the columns -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/gridlex/2.4.1/gridlex.min.css">
 
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+
   <!-- Include Google Fonts for our design -->
   <link href="https://fonts.googleapis.com/css?family=Lora|Raleway" rel="stylesheet">
 
@@ -36,7 +38,7 @@
         <nav class="col-12">
           <a href="/index.html">Home</a>
           <a href="/index.html#about-us">About Us</a>
-          <a href="#">Our Sites</a>
+          <a href="/index.html">Our Sites</a>
           <a href="/index.html#contact-us">Contact Us</a>
           <a href="/index.html">Support Us</a>
           <a href="/index.html">Feedback</a>
@@ -59,28 +61,28 @@
 
     <footer id="footer" class="grid-top">
       <div class="col-9">
-        <a><img src="images\interpreter-symbol-2.jpg"></a>
+        <a><img src="images\interpreter-symbol-2.jpg" alt="this is the interpreter symbol" class="interpreter"></a>
       </div>
 
-      <div class="col-3 grid-top">
-        <div class="col-6">
-          <a><img src="images\WESTERNHEALTH.png" alt="this is the western health logo"></a>
+      <div class="col-3 grid-top logos">
+        <div class="col-6 whlogo">
+          <a><img src="images\WESTERNHEALTH.png" alt="this is the western health logo" class="whlogo"></a>
         </div>
         <div class="col-6">
-          <a><img src="images\whfoundation-logo.png"></a>
+          <a><img src="images\whfoundation-logo.png" alt="this is the western health foundation logo" class="foundation-logo"></a>
         </div>
       </div>
 
-      <nav class="col-12">
+      <nav class="col-12 non-image">
         <a href="#home">Patients & Visitors</a>
         <a href="#home">Services</a>
         <a href="#home">Health Professionals</a>
         <a href="#home">Education & Research</a>
         <a href="#home">Careers</a>
-        <a href="#home">Staff</a>
+        <a href="#home" class="staff">Staff</a>
       </nav>
 
-      <div class="col-12">
+      <div class="col-12 copyright">
         <p><i class="fa fa-copyright" aria-hidden="true"></i> Copyright 2017 Western Health. All rights reserved.</p>
       </div>
     </footer>
@@ -97,6 +99,8 @@
         <a href="/index.html#" class="col-12">Emergency</a>
       </nav>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
       <script src="js/main.js"type="text/javascript"></script>
     </body>
     </html>
