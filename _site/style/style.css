@@ -12,7 +12,7 @@ body{
   font-family: 'Raleway', sans-serif;
 }
 section{
-  padding: 5%;
+  padding: 2%;
 }
 
 h1, h2, h3, h4, h5, h6{
@@ -95,8 +95,9 @@ header form{
   text-align: center;
 }
 #about-us{
-  padding: none;
+  padding: 2% 1%;
 }
+
 
 /*this is the information section*/
 
@@ -105,6 +106,11 @@ header form{
   border: none;
   width: 100%;
   height: 600px;
+}
+#calendarTitle{
+  font-family: 'Lora', serif;
+  font-size: 30px;
+  color: #44d9e6;
 }
 /* this is the upcoming events scroll box*/
 #information-zone .upcoming-events{
@@ -119,6 +125,9 @@ header form{
   text-decoration: underline;
 }
 /* this is the resources accordian*/
+#accordion{
+  padding-left: 5%;
+}
 #accordion a{
   display: block;
   text-decoration: none;
@@ -135,11 +144,35 @@ header form{
 
 /*this is the contact us section*/
 
+/* this is the management team section*/
 #contact-us h2{
   font-size: 30px;
   color: #000;
   text-align: center;
 }
+#contact-us h3{
+  font-size: 20px;
+  text-decoration: underline;
+  padding: none;
+}
+#contact-us a{
+  text-decoration: underline;
+  color: #44d9e6;
+}
+#contact-us div, h4, h5, a{
+  line-height: 0.5;
+}
+#contact-us div.french, div.cowie, div.cuffe, div.angel{
+  padding: 2% 0 2% 0;
+}
+
+/* this is the feedback section*/
+#contact-us .feedback{
+  font-size: 20px;
+  color: #99e265;
+}
+
+
 
 
 
