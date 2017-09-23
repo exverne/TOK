@@ -1,140 +1,22 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-
-  <!-- First we include normalize.css to "reset" all styles (and make it the same in different browsers) -->
-  <link rel="stylesheet" href="../style/normalize.css">
-
-  <!-- Include Gridlex to use the columns -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/gridlex/2.4.1/gridlex.min.css">
-
-  <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
-
-  <!-- Include Google Fonts for our design -->
-  <link href="https://fonts.googleapis.com/css?family=Lora|Raleway" rel="stylesheet">
-
-  <!-- Include our own, custom styles -->
-  <link rel="stylesheet" href="../style/style.css">
-
-  <!--- fontawesome is used for icons --->
-  <script src="https://use.fontawesome.com/67342bd5ce.js"></script>
-
-  <!--- this enables our website to be responsive to different sized screens/devices when we add media query's --->
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
-
-</head>
-
-<body>
-  <!--- this is the header --->
-    <header id="home" class="grid-spaceAround-center">
-  <!--- this is the logo --->
-      <div class="col-4">
-        <a class="center-logo">
-          <img src="images\WESTERNHEALTH.png" alt="this is the western health logo" />
-        </a>
-      </div>
-  <!--- this is the navigation bar in the header --->
-      <div class="col-8 grid-top">
-        <nav class="col-12">
-          <a href="/index.html">Home</a>
-          <a href="/index.html#about-us">About Us</a>
-          <a href="/index.html">Our Sites</a>
-          <a href="/index.html#contact-us">Contact Us</a>
-          <a href="/index.html">Support Us</a>
-          <a href="/index.html">Feedback</a>
-          <a href="/index.html" class="emergency">Emergency</a>
-          <a href="#home" title="Home" class="toggle-mobile-menu">
-          <i class="fa fa-bars fa-2x" aria-hidden="true"></i>
-          </a>
-        </nav>
-
-    <!--- this is the search bar in the header --->
-        <form class="col-12">
-          Search Google:
-          <input type="search" name="googlesearch">
-        </form>
-      </div><!-- .col-8 -->
-    </header> <!--- header --->
-
-    <!--- this is the content of the web page --->
-    <section class="grid page2-header">
-  <div class="col-4">
-    <img src="images\WHlogo-no words.png">
+<section class="grid-middle page2-header">
+  <div class="top-title grid">
+    <div class="col-4_sm-12 mobile-left">
+      <img src="images\WHlogo-no words.png" class="wh-logo">
+    </div>
+    <h2 class="col-8_sm-12 heading">Western Health Intensive Care Unit</h2>
   </div>
-    <h2 class="col-8">Western Health Intensive Care Unit</h2>
-    <h1 class="col-12">NGT Fixation</h1>
+    <h1 class="col-12 resource-title"></h1>
 </section>
 
-<section>
+<section class="video-resource">
   <p>
     Many of our patients in ICU require nasogastric tubes for feeding or drainage of stomach contents. In order to  prevent removal of these tubes they need to be securely fastened to the patient. Securing the NGT to the patient can cause pressure areas to the nares so in Western Health ICU's (Footscray and Sunshine), we use a specific method of securing the NGT to the patient.
     Please see the Video below for a demonstration
   </p>
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/KMqZhfgChZQ" frameborder="0" allowfullscreen></iframe>
+  <div class="grid-middle">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/KMqZhfgChZQ" frameborder="0" allowfullscreen class="col"></iframe>
 </section>
-<section>
+<section class="references">
   <h3>References</h3>
-  <div>
-    <p>
-      Hoadley, T. A. (2009). Learning Advanced Cardiac Life Support: A Comparison Study of the Effects of Low- and High-Fidelity Simulation. Nursing Education Perspectives, 30(2), 91-95. Retrieved 30th of April, 2013 from <a href="">https://search-ebscohost-com.ezp.lib.unimelb.edu.au/login.aspx?direct=true&db=hch&AN=37702440&site=ehost-live </a>
-    </p>
-  </div
-  <div>
-    <p>
-      Hoadley, T. A. (2009). Learning Advanced Cardiac Life Support: A Comparison Study of the Effects of Low- and High-Fidelity Simulation. Nursing Education Perspectives, 30(2), 91-95. Retrieved 30th of April, 2013 from <a href="">https://search-ebscohost-com.ezp.lib.unimelb.edu.au/login.aspx?direct=true&db=hch&AN=37702440&site=ehost-live </a>
-    </p>
-  </div>
-  <div>
-    <p>
-      Hoadley, T. A. (2009). Learning Advanced Cardiac Life Support: A Comparison Study of the Effects of Low- and High-Fidelity Simulation. Nursing Education Perspectives, 30(2), 91-95. Retrieved 30th of April, 2013 from <a href="">https://search-ebscohost-com.ezp.lib.unimelb.edu.au/login.aspx?direct=true&db=hch&AN=37702440&site=ehost-live </a>
-    </p>
-  </div>
-</section>
+  
 
-
-
-    <footer id="footer" class="grid-top">
-      <div class="col-9">
-        <a><img src="images\interpreter-symbol-2.jpg" alt="this is the interpreter symbol" class="interpreter"></a>
-      </div>
-
-      <div class="col-3 grid-top logos">
-        <div class="col-6 whlogo">
-          <a><img src="images\WESTERNHEALTH.png" alt="this is the western health logo" class="whlogo"></a>
-        </div>
-        <div class="col-6">
-          <a><img src="images\whfoundation-logo.png" alt="this is the western health foundation logo" class="foundation-logo"></a>
-        </div>
-      </div>
-
-      <nav class="col-12 non-image">
-        <a href="#home">Patients & Visitors</a>
-        <a href="#home">Services</a>
-        <a href="#home">Health Professionals</a>
-        <a href="#home">Education & Research</a>
-        <a href="#home">Careers</a>
-        <a href="#home" class="staff">Staff</a>
-      </nav>
-
-      <div class="col-12 copyright">
-        <p><i class="fa fa-copyright" aria-hidden="true"></i> Copyright 2017 Western Health. All rights reserved.</p>
-      </div>
-    </footer>
-      <nav id="mobile-menu" class="grid-middle">
-        <a href="#" class=" col-12">
-          <i class="fa fa-times" aria-hidden="true"></i>
-        </a>
-        <a href="/index.html#" class="col-12">Home</a>
-        <a href="#about-us" class="col-12">About Us</a>
-        <a href="/index.html#" class="col-12">Our Sites</a>
-        <a href="#contact-us" class="col-12">Contact Us</a>
-        <a href="/index.html#" class="col-12">Support Us</a>
-        <a href="/index.html#" class="col-12">Feedback</a>
-        <a href="/index.html#" class="col-12">Emergency</a>
-      </nav>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
-      <script src="js/main.js"type="text/javascript"></script>
-    </body>
-    </html>
