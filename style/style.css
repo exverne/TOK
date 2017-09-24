@@ -69,15 +69,18 @@ header nav{
   text-align: right;
   font-size: 20px;
   letter-spacing: 1.5;
-  padding: 0 40%;
+  padding: 0% 40%;
 }
 header a{
   color: #fff;
-  padding: 0 10px;
+  padding: 10px 10px;
   display: inline-block;
 }
 header nav a{
   border-right: 1px solid #fff;
+}
+header nav .feedback{
+  border-right: 0px solid #fff;
 }
 header a.emergency{
   font-size: 30px;
@@ -103,6 +106,9 @@ header form{
 }
 #about-us{
   padding: 2% 0%;
+}
+#about-us p{
+  line-height: 1.5;
 }
 
 
@@ -359,6 +365,31 @@ footer .non-image a{
     width: 100%;
     height:40.5vw;
   }
+
+/* Styling for Dans page*/
+
+.dans-page{
+  padding 5%;
+}
+
+.dans-page h1{
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.dans-page h2{
+  font-size: 30px;
+  font-weight: lighter;
+  text-align: center;
+}
+
+.dans-page p{
+  font-size: 20px;
+  line-height:1.5;
+}
+
+
 /* MOBILE MENU*/
 
 #mobile-menu{
@@ -373,8 +404,7 @@ footer .non-image a{
   text-align: center;
   }
 #mobile-menu.mobile-menu-visible{
-  display: flex
-  ;
+  display: flex;
 }
 #mobile-menu a{
   text-decoration: none;
@@ -407,3 +437,32 @@ footer .non-image a{
   }
 
 }
+.slidein-from-right {
+    animation: slidein-from-right 4s;
+}
+@keyframes slidein-from-right {
+    from {
+        margin-left: 100%;
+        width: 300%;
+        opacity: 0;
+    }
+    to {
+        margin-left: 0%;
+        width: 100%;
+        opacity: 1;
+    }
+  }
+    .slidein-from-left {
+        animation: slidein-from-left 4s;
+    }
+    @keyframes slidein-from-left{
+        from {
+            transform: translateX(-100%);
+            width: 100%;
+            opacity: 0;
+        }
+        to {
+            transform: translateX(0%);
+            width: 100%;
+            opacity: 1;
+        }
