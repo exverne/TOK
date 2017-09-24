@@ -438,31 +438,34 @@ footer .non-image a{
 
 }
 .slidein-from-right {
-    animation: slidein-from-right 4s;
+    animation: slidein-from-right 2s;
 }
 @keyframes slidein-from-right {
     from {
         margin-left: 100%;
         width: 300%;
         opacity: 0;
+        transform: rotateZ(360deg);
     }
     to {
         margin-left: 0%;
         width: 100%;
         opacity: 1;
+        transform: rotateZ(360deg);
     }
   }
     .slidein-from-left {
-        animation: slidein-from-left 4s;
+        animation: slidein-from-left 2s;
     }
     @keyframes slidein-from-left{
         from {
-            transform: translateX(-100%);
+            transform: translateX(-100%) rotateZ(0deg);
             width: 100%;
             opacity: 0;
         }
         to {
-            transform: translateX(0%);
+            transform: translateX(0%) rotateZ(0deg);
             width: 100%;
             opacity: 1;
+
         }
