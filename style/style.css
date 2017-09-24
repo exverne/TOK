@@ -436,10 +436,10 @@ footer .non-image a{
     margin-left: 0;
   }
 
-}
+/*}
 .slidein-from-right {
     animation: slidein-from-right 2s;
-}
+}*/
 @keyframes slidein-from-right {
     from {
         margin-left: 100%;
@@ -454,12 +454,12 @@ footer .non-image a{
         transform: rotateZ(360deg);
     }
   }
-    .slidein-from-left {
-        animation: slidein-from-left 2s;
-    }
+    /*.slidein-from-left {
+        animation: slidein-from-left infinite alternate 2s;
+    }*/
     @keyframes slidein-from-left{
         from {
-            transform: translateX(-100%) rotateZ(0deg);
+            transform: translateX(-100%) rotateZ(360deg);
             width: 100%;
             opacity: 0;
         }
